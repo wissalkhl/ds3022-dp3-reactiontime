@@ -1,0 +1,11 @@
+requests
+duckdb
+pandas
+confluent-kafka
+prefect
+pyyaml
+vaderSentiment
+matplotlib
+python-dotenv
+websockets
+cbor2
