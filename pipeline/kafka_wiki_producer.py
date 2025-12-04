@@ -5,7 +5,7 @@ import yaml
 
 WIKI_URL = "https://stream.wikimedia.org/v2/stream/recentchange"
 
-producer = Producer({"bootstrap.servers": "localhost:9092"})
+producer = Producer({"bootstrap.servers": "localhost:29092"})
 
 with open("config/topics.yaml") as f:
     config = yaml.safe_load(f)

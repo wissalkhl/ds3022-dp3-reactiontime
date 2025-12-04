@@ -37,7 +37,7 @@ def main():
 
     consumer = Consumer(
         {
-            "bootstrap.servers": "localhost:9092",
+            "bootstrap.servers": "localhost:29092",
             "group.id": "reaction-consumer",
             "auto.offset.reset": "earliest",
         }

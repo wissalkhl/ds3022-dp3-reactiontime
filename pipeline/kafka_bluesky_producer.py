@@ -6,7 +6,7 @@ import cbor2
 from confluent_kafka import Producer
 import yaml
 
-producer = Producer({"bootstrap.servers": "localhost:9092"})
+producer = Producer({"bootstrap.servers": "localhost:29092"})
 
 with open("config/topics.yaml") as f:
     config = yaml.safe_load(f)
